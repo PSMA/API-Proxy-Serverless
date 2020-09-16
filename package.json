@@ -1,0 +1,14 @@
+{
+  "name": "API-Proxy-Serverless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/PSMA/API-Proxy-Serverless.git",
+  "author": "Aaron Styles <aaron.styles@psma.com.au>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^5.10.1"
+  }
+}

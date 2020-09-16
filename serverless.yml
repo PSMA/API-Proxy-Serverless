@@ -1,0 +1,22 @@
+service: api-proxy
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+plugins:
+  - serverless-offline
+
+functions:
+  suggest:
+    handler: handler.suggest
+    events:
+      - http:
+          path: suggest
+          method: get
+  buildings:
+    handler: handler.buildings
+    events:
+      - http:
+          path: buildings
+          method: get
